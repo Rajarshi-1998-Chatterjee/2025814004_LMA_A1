@@ -1,0 +1,23 @@
+{
+ "ocr": "RapidOCR PP-OCRv6 medium det+rec, 200 dpi",
+ "bi_encoder": "sentence-transformers/all-MiniLM-L6-v2",
+ "cross_encoder": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+ "llm": "Qwen/Qwen2.5-7B-Instruct",
+ "llm_4bit": false,
+ "llm_dtype": "torch.bfloat16",
+ "encoder_dtype": "torch.float16",
+ "device": "cuda",
+ "gpu_mem_gb": 42.4,
+ "peak_gpu_mem_gb": 15.69,
+ "top_k": 10,
+ "top_n": 3,
+ "n_chunks": 307,
+ "chunk_max_chars": 450,
+ "overlap_sentences": 1,
+ "latency_reps": 20,
+ "ce_all_chunks_s": 0.09670355719999861,
+ "ce_10_chunks_s": 0.008337683199988533,
+ "ce_ms_per_pair": 0.31499530032572837,
+ "system_prompt": "You are a careful assistant answering questions about the Telangana ICT Policy 2021-2026. Use ONLY the numbered context passages. If the passages do not contain the answer, say so. Answer in at most 3 sentences and include any conditions or exceptions mentioned in the passages.",
+ "gpu": "NVIDIA A100-SXM4-40GB"
+}

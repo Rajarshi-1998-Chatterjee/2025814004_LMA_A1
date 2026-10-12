@@ -1,0 +1,6 @@
+metric,mean,median,min,max
+Baseline retrieval (ms),7.08,7.1,6.8,7.5
+Cross-Encoder re-rank of 10 (ms),8.68,8.7,8.3,9.0
+Pipeline 2 retrieval total (ms),15.74,15.7,15.3,16.5
+"LLM gen, answer 1 (s)",1.42,1.5,0.9,1.9
+"LLM gen, answer 2 (s)",1.24,1.3,0.8,1.9

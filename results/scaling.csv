@@ -1,0 +1,6 @@
+Strategy,Query latency
+Bi-Encoder + FAISS (Top-10),6.8 ms
+Bi-Encoder Top-10 + Cross-Encoder on 10,15.1 ms
+Cross-Encoder on all 307 chunks (this doc),97 ms
+"Cross-Encoder on 100,000 chunks (extrapolated)",31 s (~0.5 min)
+"Cross-Encoder on 10,000,000 chunks (extrapolated)",0.9 h

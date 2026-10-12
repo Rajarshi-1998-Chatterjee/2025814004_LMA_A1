@@ -1,0 +1,10 @@
+Q,category,gold chunk(s): baseline rank,-> after re-rank,best gold in Top-3 (base),best gold in Top-3 (rerank)
+Q1,Keyword trap / distractor,"#80: not in top-10, #81: rank 9","#80: not in top-10, #81: rank 1",False,True
+Q2,Synonym / vital chunk buried,#169: rank 4,#169: rank 1,False,True
+Q3,Exceptions & corner cases (who the relaxation applies to),#58: rank 4,#58: rank 1,False,True
+Q4,Negation & constraints,#58: rank 4,#58: rank 1,False,True
+Q5,Negation & constraints,"#151: rank 3, #152: rank 4","#151: rank 10, #152: rank 2",True,True
+Q6,Other: vital chunk buried at rank 7,"#159: rank 9, #160: not in top-10","#159: rank 1, #160: not in top-10",False,True
+Q7,Role / eligibility limits,#63: rank 6,#63: rank 5,False,False
+Q8,Control (hard to break): exception in same chunk,#63: rank 1,#63: rank 1,True,True
+Q9,Control: reranker can also hurt,"#212: rank 2, #213: rank 1","#212: rank 6, #213: rank 2",True,True
